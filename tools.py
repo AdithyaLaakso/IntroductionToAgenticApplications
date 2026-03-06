@@ -18,7 +18,7 @@ def calculate(a: float, b: float, op: str):
 def get_weather(city: str):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
 
-    api_key = "8068b684f4c02e49ccce64babdefc864"
+    api_key = "YOUR_OPEN_WEATHER_API_KEY_HERE"
     complete_url = base_url + "?appid=" + api_key + "&q=" + city
 
 
